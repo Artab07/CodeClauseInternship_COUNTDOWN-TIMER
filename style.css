@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(images/website-background-templates.png) ;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    display: flex;
+}
+.logo{
+    width: 9%;
+    padding: 20px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+.glass{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 4px solid rgba(255, 255, 255, 0.201);
+    box-shadow: -4px 7px 35px 35px rgba(0, 0, 0, 0.395);
+    display: flex;
+}
+
+.content{
+    top: 40%;
+    position:absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+}
+.content p {
+    position: relative;
+    left: 4%;
+    font-size: 25px;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+    position: relative;
+    margin-left: 24px;
+}
+.content button{
+    background: transparent;
+    border: 2px solid  white;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 20px;
+}
+.launch-time{
+    display: flex;
+    position: relative;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 50px;
+    margin-bottom: -5px;
+    position: relative;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+}
+.D span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.H span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.M span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.S span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.glass .image{
+    float: right;
+    width: 30%;
+    margin: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: -4px 7px 45px 19px rgba(0, 0, 0, 0.395);
+}
+.image{
+    display: flex;
+    position: absolute;
+    transform: translateX(220%);
+    top: 110px;
+}
+.content button:hover{
+    background: linear-gradient(90deg, indigo,blue,skyblue,rgb(255, 81, 0),rgb(255, 0, 174)),yellow;
+    border: 2px solid white;
+
+}
+
+
+ 
+
+
+ 
